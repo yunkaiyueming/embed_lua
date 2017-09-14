@@ -1,6 +1,7 @@
 -- test_module.lua 文件
 -- module 模块为上文提到到 module.lua
-local te_module=require("everyday/modules")
+package.path = "E:/Lua/embed_lua/?.lua"
+local te_module=require("modules")
  
 print(te_module.constant)
  
