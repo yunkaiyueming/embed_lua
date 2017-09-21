@@ -21,5 +21,5 @@ end
 function module:func4()
 	print("func4 called")
 end
- 
+
 return module

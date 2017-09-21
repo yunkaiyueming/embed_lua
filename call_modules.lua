@@ -3,6 +3,7 @@
 package.path = "E:/Lua/embed_lua/?.lua"
 local te_module=require("modules")
  
+print(te_module)
 print(te_module.constant)
  
 te_module.func3()
