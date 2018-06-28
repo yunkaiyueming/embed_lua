@@ -1,5 +1,12 @@
 total = 0
-for v=0,10,1 do
+for v=1,10,1 do
+	print("v==>",v)
+	total=v+total
+end
+
+total = 0
+for v=1,0,1 do
+	print("v==>",v)
 	total=v+total
 end
 
