@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+
+message Response {
+	int64 uid = 1;
+	int64 rnum = 2;
+	int64 logints=3;
+  	map<string, bytes> models = 4;
+  	map<string,bytes> data=5;
+}
+
+
+message UserinfoModel {
+  int64 uid = 1;
+  string name = 2;
+  int32 vipexp = 3;
+  int64 gold = 4;
+  int64 food = 5;
+  string mygname = 6;
+  int64 charm = 7;
+
+  repeated string aa = 8;
+  map<string, bytes> info = 9;
+}
